@@ -34,16 +34,23 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+- [NFT preview card component](#nft-preview-card-component)
+  - [Getting Started](#getting-started)
+    - [Development Server](#development-server)
+    - [Build for Production](#build-for-production)
+    - [Preview Production Build](#preview-production-build)
+- [Frontend Mentor - NFT preview card component solution](#frontend-mentor---nft-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 
 ## Overview
 
@@ -56,8 +63,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](src/assets/images/nft-screenshot-desktop.png)
-![](src/assets/images/double-screenshot-nft.png)
+![](public/images/nft-screenshot-desktop.png)
+![](public/images/double-screenshot-nft.png)
 
 ### Links
 
