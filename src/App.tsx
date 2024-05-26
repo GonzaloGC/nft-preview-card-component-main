@@ -1,3 +1,6 @@
+import iconEtherium from '/public/images/icon-ethereum.svg'
+import iconClock from '/public/images/icon-clock.svg'
+import imageAvatar from '/public/images/image-avatar.png'
 import "@fontsource-variable/outfit";
 import "./index.css";
 
@@ -8,8 +11,8 @@ export const App = () => {
         <div className="w-[327px] h-[544px] rounded-[15px] bg-[#14253d] text-[#fff] shadow-custom md:w-[350px] md:h-[596px]">
           <div className="h-full flex justify-between items-center p-[24px] md:pt-[24px] md:pr-[24px] md:pl-[24px] md:pb-[31px] flex-col gap-[22px] md:gap-[22px]">
             <div className="h-full w-full">
-              <div className="bg-[url('/public/images/image-equilibrium.jpg')] bg-cover bg-center bg-no-repeat md:bg-cover md:bg-center md:bg-no-repeat flex justify-center items-center w-[280px] h-[280px] rounded-[8px] md:w-[302px] md:h-[302px] cursor-pointer transition duration-150 ease-out">
-                <div className="hover:bg-opacity-40 md:hover:bg-opacity-40 hover:linear hover:duration-[1000ms] hover:bg-[#00fff7] md:hover:bg-[#00fff7] hover:w-full hover:h-full md:hover:w-full md:hover:h-full flex justify-center items-center hover:z-50 relative md:relative rounded-[8px] ">
+              <div className=" bg-cover bg-center bg-no-repeat md:bg-cover md:bg-center md:bg-no-repeat flex justify-center items-center w-[280px] h-[280px] rounded-[8px] md:w-[302px] md:h-[302px] cursor-pointer transition duration-150 ease-out" style={{ backgroundImage: "url('/images/image-equilibrium.jpg')" }}>
+                <div className="hover:bg-opacity-40 md:hover:bg-opacity-40 hover:linear hover:duration-[1000ms] hover:bg-[#00fff7] md:hover:bg-[#00fff7] hover:w-full hover:h-full md:hover:w-full md:hover:h-full flex justify-center items-center hover:z-50 relative md:relative rounded-[8px] " >
                   <div className="hover:bg-[url('/public/images/icon-view.svg')] md:duration-[4000ms] md:hover:bg-[url('/public/images/icon-view.svg')] bg-[length:48px_48px] bg-center bg-no-repeat w-[280px] h-[280px] rounded-[8px] md:w-[302px] md:h-[302px]"></div>
                 </div>
               </div>
@@ -26,7 +29,7 @@ export const App = () => {
               <div className="flex justify-between gap-">
                 <div className="flex gap-2">
                   <img
-                    src="/public/images/icon-ethereum.svg"
+                    src={iconEtherium}
                     alt="icon ethereum"
                     className="w-[11px] h-[18px] self-center"
                   />
@@ -37,7 +40,7 @@ export const App = () => {
                 <div className="flex">
                   <div className="flex gap-2">
                     <img
-                      src="/public/images/icon-clock.svg"
+                      src={iconClock}
                       alt="icon clock"
                       className="w-[17px] h-[17px] self-center"
                     />
@@ -50,7 +53,7 @@ export const App = () => {
                 <span className="border-b-[0.01px] border-solid border-[#2f415b] w-full"></span>
                 <section className="flex items-center gap-[15px]">
                   <img
-                    src="/public/images/image-avatar.png"
+                    src={imageAvatar}
                     alt="avatar"
                     className="w-[33px] h-[33px] md:w-[33px] md:h-[33px] border border-solid border-[#fbffff] rounded-[50%]"
                   />
